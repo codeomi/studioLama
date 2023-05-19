@@ -12,14 +12,19 @@ function Scard(props) {
   var value = props.heading;
 
   const handleClick=()=>{
-    setColor('#EDE7F6');
+    if(color==='#FFFFFF'){
+     return setColor('#EDE7F6');
+    }
+    else{
+      return setColor('#EDE7F6');
+   }
     myArr.concat({value});
   };
 
  
   return (
     
-    <button style={{backgroundColor:color}} onClick={handleClick}   className='card'>
+    <div style={{backgroundColor:color}} onClick={()=>handleClick()}   className='card'>
       <img src={props.img} alt="" />
       <div className="ccontent">
       <h4>{props.heading}</h4>
@@ -27,7 +32,7 @@ function Scard(props) {
 
       </div>
       
-    </button>
+    </div>
 
   )
 

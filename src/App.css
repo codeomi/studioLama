@@ -1,14 +1,17 @@
 .App{
   border: 0.5px solid rgba(0,0,0,0.3);
-  width: 21vw;
+  width:20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2vh 2vh 2vh 2vh;
   margin-left: 35em;
   margin-top: 3em;
   height: auto;
-  padding: 2em 2em 2em 5em;
-  -webkit-box-shadow: 4px 10px 66px 0px rgba(0,0,0,0.32);
--moz-box-shadow: 4px 10px 66px 0px rgba(0,0,0,0.32);
-box-shadow: 4px 10px 66px 0px rgba(0,0,0,0.32);
-background-color: aliceblue;
+  -webkit-box-shadow: -22px 38px 63px -6px rgba(0,0,0,0.31);
+  -moz-box-shadow: -22px 38px 63px -6px rgba(0,0,0,0.31);
+  box-shadow: -22px 38px 63px -6px rgba(0,0,0,0.31);
+  background-color: aliceblue;
 
 
 }

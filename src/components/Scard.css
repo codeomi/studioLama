@@ -5,7 +5,6 @@
     flex-direction: row;
     margin-bottom: 1em;
     width: 24em;
-    background-color: #FFFFFF;
     text-decoration: none;
 
 }
@@ -13,7 +12,6 @@
     cursor: pointer;
 }
 .card:after{
-    background-color: #EDE7F6;
 }
 .card img{
     height: 1.5em;
@@ -22,6 +20,7 @@
 .ccontent h4{
     margin-bottom: 0px;
     text-decoration: none;
+    font-family: "Nunito", sans-serif;
 }
 
 .ccontent p{
