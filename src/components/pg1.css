@@ -1,56 +1,90 @@
-.pg1 form button{
-    margin-top: 1em;
-    width: 19em;
-    height: 2em;
-    background-color: #F2F2F2;
-    font-size: medium;
-    color: #ACACAC;
-    border-color:  #F2F2F2;
-
+.heading {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-.pg1 form button:hover{
-    background-color: #7C55C5;
-    color: #FFFFFF;
-    cursor: pointer;
+input {
+  height: 1.5rem;
+  margin-bottom: 2px;
+  border: 1px solid #e0e0e0;
 }
 
-.pg1 form label{
-    color: #424242;
-    font-size: small;
-}
-.pg1 form input{
-    border: 1px solid #E0E0E0;
-    padding: 0.2em 0.2em 0.2em 0.2em;
-
+.ninput {
+  width: 22em;
+  height: 1.5em;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 8px;
 }
 
-.ninput{
-    width: 22em;
-    height: 1.5em;
-    
+.cw {
+  margin-right: 10em;
 }
-
-.cw{
-    margin-right: 10em;
+.cin {
+  margin-right: 3em;
 }
-.cin{
-    margin-right: 3em;
+.code {
+  width: 4.4em;
+  margin-right: 1.5em;
 }
-.code{
-    width: 4.4em;
-    margin-right: 1.5em
+.pin {
+  width: 15em;
 }
-.pin{
-    width: 15em;
-    
-}
-.form-errors{
-    color: red;
-    font-size: xx-small;
-    margin-top: 0;
+.form-errors {
+  color: red;
+  font-size: 12px;
+  margin-top: 0;
 }
 
 /* .variable{
     display: none;
 } */
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer > div {
+  margin-bottom: 15px;
+}
+
+.inputContainers {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainers > div {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.weightHeight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.weightHeight > div {
+  margin-bottom: 15px;
+}
+
+.unit {
+  width: 170px;
+}
+
+.wh-unit {
+  width: 26px;
+}
+
+.weightHeightInput {
+  display: flex;
+  flex-direction: row;
+}
+
+.wh-unit {
+  -webkit-appearance: none;
+  width: 170px;
+}

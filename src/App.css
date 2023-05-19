@@ -1,8 +1,19 @@
 .App{
-  border: 1px solid red;
+  border: 0.5px solid rgba(0,0,0,0.3);
   width: 21vw;
   margin-left: 35em;
   margin-top: 3em;
   height: auto;
-  padding: 2em 2em 2em 2em;
+  padding: 2em 2em 2em 5em;
+  -webkit-box-shadow: 4px 10px 66px 0px rgba(0,0,0,0.32);
+-moz-box-shadow: 4px 10px 66px 0px rgba(0,0,0,0.32);
+box-shadow: 4px 10px 66px 0px rgba(0,0,0,0.32);
+background-color: aliceblue;
+
+
+}
+
+
+body{
+  background-color: rgba(0,0,0,0.15);
 }

@@ -14,6 +14,8 @@ import Pg5 from './components/Pg5';
 
 function App() {
   return (
+    <>
+    
     <div className="App">
       <Header/>
       
@@ -30,6 +32,7 @@ function App() {
       </BrowserRouter>
       
     </div>
+    </>
   );
 }
 
