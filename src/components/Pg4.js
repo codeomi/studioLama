@@ -48,10 +48,10 @@ function Pg4() {
         <img src={coloredscroll} alt="" />
         <img src={coloredscroll} alt="" />
       </div>
-      <h3>Schedule an appointment</h3>
+      <h3 className="heading">Schedule an appointment</h3>
 
       <form onSubmit={handleSubmit} action="">
-        <label htmlFor="">Select date</label>
+        <div className="">Select date</div>
         <br />
         <input
           className="ninput"
@@ -68,7 +68,9 @@ function Pg4() {
           <p className="form-errors">{errors.date}</p>
         ) : null}
 
-        <label htmlFor="">Select time</label>
+        <div className="input-heading" htmlFor="">
+          Select time
+        </div>
         <br />
         <input
           className="ninput"
@@ -81,13 +83,15 @@ function Pg4() {
         />
         <br />
 
-        <label htmlFor="">Choose a slot</label>
+        <div htmlFor="">Choose a slot</div>
         <br />
         <button className="btn2 active">10:30 to 10:45 am</button>
         <button className="btn2">10:45 to 11:00 am</button>
         <br />
 
-        <label htmlFor="">call type</label>
+        <div className="input-heading" htmlFor="">
+          call type
+        </div>
         <br />
         <button className="btn3 active ">
           <img src={camera} alt="" />

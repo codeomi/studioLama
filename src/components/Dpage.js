@@ -110,13 +110,12 @@ function Dpage() {
       </h3>
       <div className="dbox">
         {/* {disease.symptoms.map((ele)=>console.log(ele))} */}
-        {childSymptomsType.map((element) => {
-          if (element.name === dname) {
-            return element.symptoms.map((ele) => {
-              console.log(ele);
-              return <Dcard disease={ele} />;
-            });
-          }
+        {childSymptomsType[0].symptoms.map((element) => {
+          // if (element.name === dname) {
+           
+              return <Dcard disease={element} />;
+           
+          // }
         })}
       </div>
       <Link to="/pg3">
